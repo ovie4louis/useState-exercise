@@ -19,7 +19,10 @@ const Sigin = () => {
     const handleClick = () =>{
       
         
-        setSignin("")
+        setSignin({
+            Email: "",
+            Password : ""
+        })
     }
 
 
